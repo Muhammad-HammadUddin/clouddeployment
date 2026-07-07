@@ -20,7 +20,7 @@ app.get('/health', (req, res) => {
 
 // Root Route
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to CloudDep API' });
+  res.json({ message: 'Welcome to CloudDep API after changing the code' });
 });
 
 // 404 Handler
